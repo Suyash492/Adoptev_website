@@ -20,7 +20,7 @@ export default function PopularEvs() {
         </div>
 
         <div className=' flex justify-between '>
-          <div className="button space-x-2 mb-4 ">
+          <div className="button space-x-1 mb-4 ">
             <button className='bg-[#F8F8F8] hover:bg-[#449342] hover:text-white p-2 rounded-lg'> 3- Wheeler</button>
             <button className='bg-[#F8F8F8] hover:bg-[#449342] hover:text-white p-2 rounded-lg'> 2- Wheeler</button>
             <button className='bg-[#F8F8F8] hover:bg-[#449342] hover:text-white p-2 rounded-lg'> Bicycle</button>
