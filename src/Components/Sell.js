@@ -47,7 +47,7 @@ export default function Sell() {
                 <h1 className='text-2xl font-bold'>Own an EV with</h1>
                 <h1 className='text-2xl font-bold text-[#449342]'>AdoptEV</h1>
                 <p className='mt-4'>Subscribe our newsletter and don't miss any promotional offers.</p>
-                    <div className='flex bg-white justify-between mt-4 mx-1'>
+                    <div className='flex bg-white justify-between mt-4 '>
                     <input type="" placeholder='Enter your email address' className='p-1' />
                     <button className=' pr-4 pl-4 bg-[#02353c] text-white' >Subscribe</button>
                     </div>
