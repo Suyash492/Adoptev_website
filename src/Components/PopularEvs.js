@@ -127,7 +127,7 @@ export default function PopularEvs() {
         </div>
 
 
-        <div className='flex text-center space-x-2 shrink-0 overflow-x-auto  snap-x snap-mandatory '>
+        <div className='flex text-center space-x-2 shrink-0 overflow-x-auto  snap-x snap-mandatory justify-between'>
           <div className=' hover:bg-white hover:shadow-lg hover:shadow-black p-2 w-48 snap-center'>
             <TbMotorbike className='text-6xl shadow-md shadow-black p-2 rounded-full m-auto hover:bg-[#02353c] hover:text-white'></TbMotorbike>
             <p className='text-sm mt-4'>Find all EV <br /> at one place</p>

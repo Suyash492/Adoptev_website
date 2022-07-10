@@ -7,11 +7,11 @@ export default function Footer() {
         EVMart
       </div>
        <hr className="border border-white mt-2 " />
-      <div className=" space-y-3  text-center">
+      <div className=" md:flex md:justify-evenly space-y-3  text-center">
         <div>
           <p>E-Bikes</p>
           
-          <p className="hidden">
+          <p className="hidden md:block">
             Revolt RV400 <br />
             Ola S1 <br />
             TVS iQube <br />
@@ -28,7 +28,7 @@ export default function Footer() {
         <div>
           <p>E-3 wheeler</p>
           
-          <p className="hidden">
+          <p className="hidden md:block">
           Mahindra Treo Zor <br />
           Kinetic Safar Jumbo <br />
           Atul Elite Cargo <br />
@@ -40,7 +40,7 @@ export default function Footer() {
         <div>
           <p>E-Car</p>
           
-          <p className="hidden">
+          <p className="hidden md:block">
           Tata Nexon EV <br />
           Tata Tigor EV <br />
           MG ZS EV <br />
@@ -57,7 +57,7 @@ export default function Footer() {
             Support
           </p>
           
-          <p className="hidden">
+          <p className="hidden md:block">
           Contact Us <br />
           Book a Test Ride <br />
           Become a Seller <br />
@@ -68,22 +68,22 @@ export default function Footer() {
         <div>
           <p>About us</p>
          
-          <p className="hidden">About EVMart</p>
+          <p className="hidden md:block">About EVMart</p>
         </div>
 
         <div>
           <p>Careers</p>
           
-          <p className="hidden">Our culture <br />
+          <p className="hidden md:block">Our culture <br />
              Job Openings <br />
           </p>
-<hr className="border border-white "/>
-        </div>
-        <div className="mt-2 pb-4">
-          <p className="">2022.AdoptEV Technologies PVT LTD | *Privacy policy</p>
         </div>
 
       </div>
+<hr className="border border-white "/>
+        <div className="mt-2 pb-4">
+          <p className="">2022.AdoptEV Technologies PVT LTD | *Privacy policy</p>
+        </div>
     </div>
   );
 }
