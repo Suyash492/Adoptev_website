@@ -6,7 +6,7 @@ import image48 from '../assets/image 48.png'
 export default function FutureEv() {
   return (
     
-        <div className='bg-blue-200 pb-10 pt-5'>
+        <div className='bg-blue-200 pb-10 pt-5 mb-10'>
             <div className='mr-[5%] ml-[5%]  '>
                 <div>
                     <h1 className='text-xl text-[#02353c]  md:text-2xl font-extrabold'>Find future <br /> for your fleet</h1>
