@@ -6,6 +6,7 @@ import PopularEvs from './Components/PopularEvs'
 import Sell from './Components/Sell';
 import Footer from './Components/Footer';
 import Navsm from './Components/Navsm';
+import FutureEv from './Components/FutureEv';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <Nav></Nav>
     <Hero></Hero>
     <PopularEvs></PopularEvs>
+    {/* <FutureEv></FutureEv> */}
     <Sell></Sell>
     <Footer></Footer>
     

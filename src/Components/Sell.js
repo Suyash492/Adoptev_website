@@ -8,30 +8,33 @@ import image28 from '../assets/image 28.png'
 
 export default function Sell() {
   return (
-    <div className='mr-[5%] ml-[5%]'>
-        <div className=' '>
+    <div className='mr-[5%] ml-[5%] '>
+        <div className='md:flex md:justify-between '>
             <div>
                 <p className='font-bold text-[#449342]'>JOIN WITH US</p>
                 <h1 className='text-xl font-bold'>Sell EV'S,Spare & Accessories With Us</h1>
             </div>
-            <div className='m-auto text-center'>
+            <div className=' text-center'>
                 <button className='bg-[#02353c] text-white p-1 mt-4 mb-4 pr-4 pl-4 rounded-sm'> Join Now</button>
             </div>
         </div>
 
-        <div className=' text-center mb-10'>
+        <div className='md:flex md:justify-between text-center mb-10 '>
             <div className=''>
                 <img src={Rectangle100} alt="" className='m-auto' />
+                <hr />
                 <h1 className='text-[#449342] font-bold text-xl'>EV Startups</h1>
                 <p>Register your EV startup with us and get 1000's of supplier at one place with AdoptEV. </p>
             </div>
             <div>
                 <img src={Rectangle100} alt="" className='m-auto'/>
+                <hr />
                 <h1 className='text-[#449342] font-bold text-xl'>EV Dealer And Supplier</h1>
                 <p>Join as a dealer or supplier and reach more customer nationwide and connect with startups and supply various parts. </p>
             </div>
             <div>
                 <img src={Rectangle100} alt="" className='m-auto' />
+                <hr />
                 <h1 className='text-[#449342] font-bold text-xl'>Battery & Accessories</h1>
                 <p>Join as battery & accessories seller , sell and ship your product nationwide with AdoptEV.  </p>
             </div>
@@ -39,12 +42,13 @@ export default function Sell() {
 
         </div>
 
-        <div className='flex md:bg-blue-200 '>
-            <div className='hidden md:block '>
-                <img src={image11} alt="" />
+        <div className='flex md:bg-blue-200 justify-evenly rounded-lg '>
+          
+            <div className='hidden md:block md:ml-20 md:mt-20  '>
+                <img src={image11} alt="" className='md:w-60'/>
             </div>
-            <div className='bg-blue-200 rounded-lg p-4 mb-10  '>
-                <h1 className='text-2xl font-bold'>Own an EV with</h1>
+            <div className='bg-blue-200 rounded-lg p-4 mb-10 md:mt-16  '>
+                <h1 className='text-2xl font-bold '>Own an EV with</h1>
                 <h1 className='text-2xl font-bold text-[#449342]'>AdoptEV</h1>
                 <p className='mt-4'>Subscribe our newsletter and don't miss any promotional offers.</p>
                     <div className='flex bg-white  mt-4 w-fit '>
@@ -54,7 +58,7 @@ export default function Sell() {
             </div>
         </div>
 
-        <div className='mb-16'>
+        <div className='mb-16 mt-10'>
             <div className='text-center mb-4'>
                 <p className='text-[#449342] font-bold'>INSTAGRAM,YOUTUBE,TWITTER</p>
                 <h1 className='text-xl font-bold'>Social</h1>
