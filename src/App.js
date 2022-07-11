@@ -18,7 +18,7 @@ function App() {
     <Nav></Nav>
     <Hero></Hero>
     <PopularEvs></PopularEvs>
-    {/* <FutureEv></FutureEv> */}
+    <FutureEv></FutureEv>
     <Sell></Sell>
     <Footer></Footer>
     

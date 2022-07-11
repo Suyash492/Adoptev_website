@@ -7,8 +7,8 @@ import {SiHandshake} from "react-icons/si";
 import {FaCarBattery} from "react-icons/fa";
 import image47 from '../assets/image 47.png'
 import image45 from '../assets/image 45.png'
-import image49 from '../assets/image 49.png'
 import image48 from '../assets/image 48.png'
+import image49 from '../assets/image 49.png'
 
 export default function PopularEvs() {
   return (
@@ -22,13 +22,13 @@ export default function PopularEvs() {
 
         <div className=' flex  '>
           <div className="button space-x-1  mb-4  ">
-            <button className='bg-[#F8F8F8] hover:bg-[#449342] hover:text-white p-2 rounded-lg'> 3- Wheeler</button>
-            <button className='bg-[#F8F8F8] hover:bg-[#449342] hover:text-white p-2 rounded-lg'> 2- Wheeler</button>
-            <button className='bg-[#F8F8F8] hover:bg-[#449342] hover:text-white p-2 rounded-lg'> Bicycle</button>
-            <button className='bg-[#F8F8F8] hover:bg-[#449342] hover:text-white p-2 pr-6 pl-6 rounded-lg'> Car</button>
+            <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-2 rounded-lg'> 3- Wheeler</button>
+            <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-2 rounded-lg'> 2- Wheeler</button>
+            <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-2 rounded-lg'> Bicycle</button>
+            <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-2 pr-6 pl-6 rounded-lg'> Car</button>
           </div>
 
-          <div className="click  text-5xl space-x-4 mt-1 hidden">
+          <div className="click  text-5xl space-x-4 mt-1 hidden ">
             <FiArrowLeftCircle></FiArrowLeftCircle>
             <FiArrowRightCircle></FiArrowRightCircle>
           </div>
