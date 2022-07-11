@@ -13,7 +13,7 @@ export default function FutureEv() {
                 </div>
 
                 <div className='mt-5 flex justify-between flex-wrap  '>
-                <div className=" flex button space-x-3  mb-4  ">
+                <div className=" flex button space-x-3  mb-4 flex-wrap ">
                     <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-3 rounded-xl'> 3- Wheeler</button>
                     <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-3 rounded-xl'> 2- Wheeler</button>
                     <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-3 rounded-xl'> Bicycle</button>
