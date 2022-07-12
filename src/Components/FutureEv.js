@@ -14,10 +14,10 @@ export default function FutureEv() {
 
                 <div className='mt-5 flex justify-between flex-wrap  '>
                 <div className=" flex button space-x-3  mb-4 flex-wrap ">
-                    <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-3 rounded-xl'> 3- Wheeler</button>
-                    <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-3 rounded-xl'> 2- Wheeler</button>
-                    <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-3 rounded-xl'> Bicycle</button>
-                    <button className='bg-[#F8F8F8] hover:bg-[#02353c] hover:text-white p-3 px-9 rounded-xl'> Car</button>
+                    <button className='bg-[#F8F8F8] text-xs hover:bg-[#02353c] hover:text-white p-1 rounded-xl'> 3- Wheeler</button>
+                    <button className='bg-[#F8F8F8] text-xs hover:bg-[#02353c] hover:text-white p-1 rounded-xl'> 2- Wheeler</button>
+                    <button className='bg-[#F8F8F8] text-xs hover:bg-[#02353c] hover:text-white p-1 rounded-xl'> Bicycle</button>
+                    <button className='bg-[#F8F8F8] text-xs hover:bg-[#02353c] hover:text-white p-1 px-4 rounded-xl'> Car</button>
                 </div>
                 <div className=''>
                     <button className='hidden md:block border border-black p-3 px-4 rounded-lg '> Explore Vehicle</button>
